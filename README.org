@@ -1,0 +1,52 @@
+#+TITLE: Introkurs i konkurranseprogrammering
+
+* Oppgaver
+(Her er noen foreløpige forslag til oppgaver. Har kategorisert dem
+etter hvor vanskelig jeg selv syntes de var da jeg løste dem. -- Tore)
+
+** Trivielle
+- [[https://open.kattis.com/problems/aaah][Aaah!]]
+- [[https://open.kattis.com/problems/hello][Hello World!]]
+- [[https://open.kattis.com/problems/simon][Simon Says]]
+** Enkle
+- [[https://open.kattis.com/problems/mixedfractions][Mixed Fractions]]
+- [[https://open.kattis.com/problems/bishops][Bishops]]
+- [[https://open.kattis.com/problems/different][A Different Problem]]
+** Medium
+- [[https://open.kattis.com/problems/trainpassengers][Train Passengers]]
+- [[https://open.kattis.com/problems/plantingtrees][Planting Trees]]
+- [[https://open.kattis.com/problems/billiard][Billiard]]
+* Foredrag
+** Hva er konkurranseprogrammering?
+*** Forskjellige typer
+**** Kjør koden på server
+**** Kjør koden lokalt
+**** Vurder koden på tid
+**** Vurder programmering på tid
+*** Forskjellige platformer
+- Kattis
+- Project Euler
+- Programming Ladder
+- Google Code Jam
+** Hvorfor drive med konkurranseprogrammering?
+*** Lære å løse problemer under press
+*** Bli god i sentrale algoritmer og kunne tilpasse dem
+*** Evne til å raskt estimere tidsbruken til forskjellige algoritmer
+*** Morsomt å konkurrere
+** Hvordan gå fra problem til kode?
+*** Forstå problemet
+*** Prøv å estimere hva slags type løsning som kan fungere
+- Brute force
+- Dynamisk programmering
+- Noe smartere
+*** Skriv kode og test ofte
+Kanskje med de enkleste testcasene først, men så med de verste for å
+se om koden er raskt nok.
+*** Når du tror du har noe som kan fungere, tenk på hva slags edge cases som finnes
+*** Fjern alle debuginfo fra koden og submit
+** Triks for feilsøkning
+*** Timeout
+*** Run time error
+*** Compilation error
+** Hvordan finne ressurser for å løse vanskelig problemer?
+*** Wikipedia
