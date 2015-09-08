@@ -1,51 +1,104 @@
-* Introkurs i konkurranseprogrammering
-** Oppgaver
-(Her er noen foreløpige forslag til oppgaver. Har kategorisert dem
-etter hvor vanskelig jeg selv syntes de var da jeg løste dem. -- Tore)
+#+TITLE: Introkurs i konkurranseprogrammering
+#+AUTHOR: Lars Tveito \and Tore Norderud
+#+DATE: 8. september 2015
+#+OPTIONS: H:2 toc:nil num:nil
 
-*** Trivielle
-- [[https://open.kattis.com/problems/aaah][Aaah!]]
-- [[https://open.kattis.com/problems/hello][Hello World!]]
-- [[https://open.kattis.com/problems/simon][Simon Says]]
-*** Enkle
-- [[https://open.kattis.com/problems/mixedfractions][Mixed Fractions]]
-- [[https://open.kattis.com/problems/bishops][Bishops]]
-- [[https://open.kattis.com/problems/different][A Different Problem]]
-*** Medium
-- [[https://open.kattis.com/problems/trainpassengers][Train Passengers]]
-- [[https://open.kattis.com/problems/plantingtrees][Planting Trees]]
-- [[https://open.kattis.com/problems/billiard][Billiard]]
-** Foredrag
-*** Hva er konkurranseprogrammering?
-**** Forskjellige typer
-***** Kjør koden på server
-***** Kjør koden lokalt
-***** Vurder koden på tid
-***** Vurder programmering på tid
-**** Forskjellige platformer
+* Foredrag
+** Hva er konkurranseprogrammering?
+** Hvorfor drive med konkurranseprogrammering?
+- *Oppgaveløsning er en fin måte å lære på.* I informatikk er det ofte
+  lett å lure seg selv til å tro at man forstår noe man egentlig ikke
+  forstår. Oppgaveløsning er en god måte å fjerne en slik
+  misoppfatning. Sannheten kommer som oftest alltid frem når man løser
+  oppgaver. Da ser man med klarhet hva man er god til, og hva man
+  trenger å jobbe mer med.
+- *Man lærer å løse problemer under press.* Under en konkurranse er
+  tiden alltid fienden. Selv enkle problemer kan bli vanskelige hvis
+  tidspresset er stort nok.
+- *Blir ekspert i noen av de viktigste algoritmene.* Oppgaver som skal
+  løses er ofte varianter av godt kjente algoritmer. For å løse dem er
+  det nødvendig å gjenkjenne at en kjent algoritme kan brukes, og så
+  tilpasse den til den konkrete oppgaven.
+- *Får evnen til raskt å estimere ressursbruken til forskjellige
+  strategier.* Noen oppgaver kan løses med en naiv brute
+  force-strategi. Andre oppgaver trenger noe smartere. Gode
+  konkurranseprogrammere estimerer godt både hvor lang tid det vil ta
+  å kode løsningen til et problem og hvor lenge det vil kjøre.
+- *Det er morsomt å konkurrere.*
+** Hva er tidskompleksitet?
+#+BEGIN_SRC java
+// Ex1
+
+for (int i = 0; i < n; i++) {
+    doSomething();
+}
+for (int i = 0; i < n; i++) {
+    doSomething();
+}
+
+// Ex2
+
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n; j++) {
+        doSomething();
+    }
+}
+#+END_SRC
+** Forskjellige typer
+- Kjør koden på server
+- Kjør koden lokalt
+- Vurder koden på tid
+- Vurder programmering på tid
+** Forskjellige platformer
 - Kattis
 - Project Euler
 - Programming Ladder
 - Google Code Jam
-*** Hvorfor drive med konkurranseprogrammering?
-**** Lære å løse problemer under press
-**** Bli god i sentrale algoritmer og kunne tilpasse dem
-**** Evne til å raskt estimere tidsbruken til forskjellige algoritmer
-**** Morsomt å konkurrere
-*** Hvordan gå fra problem til kode?
-**** Forstå problemet
-**** Prøv å estimere hva slags type løsning som kan fungere
+** Hvordan gå fra problem til kode?
+*** Pólya
+**** First, you have to understand the problem.
+**** After understanding, then make a plan.
+**** Carry out the plan.
+**** Look back on your work. How could it be better?
+*** Forstå problemet
+*** Snu på problemet (negate the problem)
+*** Finne lignende problemer
+*** Identifisere de faktiske problemene i en oppgave
+*** Prøv å estimere hva slags type løsning som kan fungere
 - Brute force
-- Dynamisk programmering
+- Splitt og hersk
+- Dynamisk programmering/Memoisering
+- En grådig algoritme
 - Noe smartere
-**** Skriv kode og test ofte
-Kanskje med de enkleste testcasene først, men så med de verste for å
-se om koden er raskt nok.
-**** Når du tror du har noe som kan fungere, tenk på hva slags edge cases som finnes
-**** Fjern alle debuginfo fra koden og submit
+*** Skriv kode og test ofte
+Kanskje med de enkleste testcasene først, men så med de vanskeligste
+for å se om koden er raskt nok.
+*** Når du tror du har noe som kan fungere, tenk på hva slags edge cases som finnes
+*** Fjern alle debuginfo fra koden og submit
+** Hvordan løse problemer på Kattis?
+*** Registrere bruker
+Husk å legge til Norway og University of Oslo
+*** Finne interessante problemer
+http://www.csc.kth.se/utbildning/kth/kurser/DD2458/popuph14/uppgifter/
 *** Triks for feilsøkning
-**** Timeout
-**** Run time error
-**** Compilation error
-*** Hvordan finne ressurser for å løse vanskelig problemer?
-**** Wikipedia
+- Timeout
+- Run time error
+- Compilation error
+- Les oppgaven nøye
+- Sjekk bounds på input
+- Legge inn run time error med vilje (last resort)
+** Hvordan finne ressurser for å løse vanskelig problemer?
+*** Wikipedia
+* Oppgaveløsning
+** Trivielle
+- [[https://open.kattis.com/problems/aaah][Aaah!]]
+- [[https://open.kattis.com/problems/hello][Hello World!]]
+- [[https://open.kattis.com/problems/simon][Simon Says]]
+** Enkle
+- [[https://open.kattis.com/problems/mixedfractions][Mixed Fractions]]
+- [[https://open.kattis.com/problems/bishops][Bishops]]
+- [[https://open.kattis.com/problems/different][A Different Problem]]
+** Medium
+- [[https://open.kattis.com/problems/trainpassengers][Train Passengers]]
+- [[https://open.kattis.com/problems/plantingtrees][Planting Trees]]
+- [[https://open.kattis.com/problems/billiard][Billiard]]
