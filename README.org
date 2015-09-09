@@ -87,8 +87,10 @@ http://www.csc.kth.se/utbildning/kth/kurser/DD2458/popuph14/uppgifter/
 - Les oppgaven nøye
 - Sjekk bounds på input
 - Legge inn run time error med vilje (last resort)
-** Hvordan finne ressurser for å løse vanskelig problemer?
+** Hvordan finne ressurser for å løse vanskelige problemer?
 *** Wikipedia
+*** Stack Overflow
+http://stackoverflow.com/questions/tagged/algorithm?sort=faq&pagesize=15
 * Oppgaveløsning
 ** Trivielle
 - [[https://open.kattis.com/problems/aaah][Aaah!]]
