@@ -52,6 +52,20 @@
      #+END_NOTES
 
    - Det er morsomt å konkurrere!
+
+** Hvordan løse et problem?
+
+   - *Pólya foreslår:*
+     - First, you have to understand the problem.
+     - After understanding, then make a plan.
+     - Carry out the plan.
+     - Look back on your work. How could it be better?
+
+   - *Andre tips*
+     - Snu på problemet (negate the problem)
+     - Finne lignende problemer (har du løst noe lignende før?)
+     - Identifisere de faktiske problemene i en oppgave
+
 ** Hva er tidskompleksitet?
    #+BEGIN_SRC java
    // Eksempel 1
