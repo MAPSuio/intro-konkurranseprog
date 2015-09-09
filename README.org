@@ -27,16 +27,16 @@
 - *Det er morsomt å konkurrere.*
 ** Hva er tidskompleksitet?
 #+BEGIN_SRC java
-// Ex1
+// Eksempel 1
 
 for (int i = 0; i < n; i++) {
     doSomething();
 }
-for (int i = 0; i < n; i++) {
+for (int j = 0; j < n; j++) {
     doSomething();
 }
 
-// Ex2
+// Eksempel 2
 
 for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
