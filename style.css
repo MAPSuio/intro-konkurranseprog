@@ -1,3 +1,16 @@
 h1, h2, h3, h4, h5, h6, p, a, li, tr, td {
     font-family: "Helvetica", sans-serif !important;
 }
+
+colgroup {
+    border: none !important;
+}
+
+.reveal table th, .reveal table td {
+    text-align: left;
+    padding-right: 60px;
+}
+
+.reveal pre {
+    font-family: "source code pro", "inconsolata", "monospace";
+}
