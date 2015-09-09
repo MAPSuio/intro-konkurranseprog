@@ -66,6 +66,17 @@
      - Finne lignende problemer (har du løst noe lignende før?)
      - Identifisere de faktiske problemene i en oppgave
 
+** Fremgangsmåter
+
+   - Kan problemet løses ved
+     - brute force?
+     - splitt og hersk?
+     - dynamisk programmering/Memoisering?
+     - en grådig algoritme?
+   - Eller må man finne på noe smartere?
+   - Her er det viktig å kunne estimere hvor effektiv en fremgangsmåte vil
+     være!
+
 ** Hva er tidskompleksitet?
    #+BEGIN_SRC java
    // Eksempel 1
