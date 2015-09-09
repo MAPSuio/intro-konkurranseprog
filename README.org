@@ -10,15 +10,17 @@
 #+REVEAL_SPEED: fast
 #+REVEAL_HLEVEL: 1
 
-* Konkurranseprogrammering
 ** Hva er konkurranseprogrammering?
- | *Forskjellige typer*        | *Forskjellige plattformer* |
- |-----------------------------+----------------------------|
- | Kjør koden på server        | [[https://open.kattis.com/][Kattis]]                     |
- | Kjør koden lokalt           | [[https://projecteuler.net/][Project Euler]]              |
- | Vurder koden på tid         | [[https://code.google.com/codejam][Google Code Jam]]            |
- | Vurder programmering på tid | [[http://lispinsummerprojects.org/][Lisp In Summer Projects]]    |
+
+   | *Forskjellige typer*        | *Forskjellige plattformer* |
+   |-----------------------------+----------------------------|
+   | Kjør koden på server        | [[https://open.kattis.com/][Kattis]]                     |
+   | Kjør koden lokalt           | [[https://projecteuler.net/][Project Euler]]              |
+   | Vurder koden på tid         | [[https://code.google.com/codejam][Google Code Jam]]            |
+   | Vurder programmering på tid | [[http://lispinsummerprojects.org/][Lisp In Summer Projects]]    |
+
 ** Hvorfor drive med konkurranseprogrammering?
+
    - Oppgaveløsning er en fin måte å lære på
      #+BEGIN_NOTES
      I informatikk er det ofte lett å lure seg selv til å tro at man forstår
