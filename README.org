@@ -109,23 +109,36 @@
    #+REVEAL_HTML:</table>
 
 ** Hvor mye kan en datamaskin gjøre på ett sekund?
+
+   #+BEGIN_SRC java :tangle TestTime.java
+   class TestTime {
+       public static void main(String[] args) {
+           int n = 1000;
+           int sum = 0;
+           sumAndTime(n);            // Sum: 499500, time: 0ms
+           sumAndTime(n * n);        // Sum: 499999500000, time: 6ms
+           sumAndTime(n * n * n);    // Sum: 499999999500000000, time: 447ms
+       }
+
+       public static void sumAndTime(int n) {
+           long start = System.currentTimeMillis();
+           long sum = 0;
+
+           for (int i = 0; i < n; i++) {
+               sum += i;           // Veldig lite kostbar opperasjon!
+           }
+
+           long end = System.currentTimeMillis();
+           String format = "Sum: %d, time: %dms\n";
+           System.out.printf(format, sum, (end - start));
+       }
+   }
+   #+END_SRC
+
+   #+BEGIN_CENTER
    TL;DR: 10^9
-** Hvordan gå fra problem til kode?
-*** Pólya
-**** First, you have to understand the problem.
-**** After understanding, then make a plan.
-**** Carry out the plan.
-**** Look back on your work. How could it be better?
-*** Forstå problemet
-*** Snu på problemet (negate the problem)
-*** Finne lignende problemer
-*** Identifisere de faktiske problemene i en oppgave
-*** Prøv å estimere hva slags type løsning som kan fungere
-    - Brute force
-    - Splitt og hersk
-    - Dynamisk programmering/Memoisering
-    - En grådig algoritme
-    - Noe smartere
+   #+END_CENTER
+
 *** Skriv kode og test ofte
     Kanskje med de enkleste testcasene først, men så med de vanskeligste
     for å se om koden er raskt nok.
