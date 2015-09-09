@@ -1,7 +1,13 @@
 #+TITLE: Introkurs i konkurranseprogrammering
-#+AUTHOR: Lars Tveito \and Tore Norderud
+#+AUTHOR: Lars Tveito, Tore Norderud
 #+DATE: 10. september 2015
 #+OPTIONS: H:2 toc:nil num:nil
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/2.5.0/
+#+REVEAL_EXTRA_CSS: style.css
+#+EMAIL: maps-kontakt@studorg.uio.no
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: serif
+#+REVEAL_SPEED: fast
 
 * Foredrag
 ** Hva er konkurranseprogrammering?
