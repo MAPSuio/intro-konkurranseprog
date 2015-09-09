@@ -1,6 +1,6 @@
 #+TITLE: Introkurs i konkurranseprogrammering
 #+AUTHOR: Lars Tveito \and Tore Norderud
-#+DATE: 8. september 2015
+#+DATE: 10. september 2015
 #+OPTIONS: H:2 toc:nil num:nil
 
 * Foredrag
