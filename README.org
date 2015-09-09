@@ -104,3 +104,4 @@ http://stackoverflow.com/questions/tagged/algorithm?sort=faq&pagesize=15
 - [[https://open.kattis.com/problems/trainpassengers][Train Passengers]]
 - [[https://open.kattis.com/problems/plantingtrees][Planting Trees]]
 - [[https://open.kattis.com/problems/billiard][Billiard]]
+- [[https://open.kattis.com/problems/recenice][Rečenice]]
