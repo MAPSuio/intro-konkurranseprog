@@ -12,6 +12,16 @@
 
 * Foredrag
 ** Hva er konkurranseprogrammering?
+*** Forskjellige typer
+- Kjør koden på server
+- Kjør koden lokalt
+- Vurder koden på tid
+- Vurder programmering på tid
+*** Forskjellige platformer
+- [[https://open.kattis.com/][Kattis]]
+- [[https://projecteuler.net/][Project Euler]]
+- [[https://code.google.com/codejam][Google Code Jam]]
+- [[http://lispinsummerprojects.org/][Lisp In Summer Projects]]
 ** Hvorfor drive med konkurranseprogrammering?
    - *Oppgaveløsning er en fin måte å lære på.* I informatikk er det ofte
      lett å lure seg selv til å tro at man forstår noe man egentlig ikke
@@ -53,16 +63,6 @@
    #+END_SRC
 ** Hvor mye kan en datamaskin gjøre på ett sekund?
    10^9
-** Forskjellige typer
-   - Kjør koden på server
-   - Kjør koden lokalt
-   - Vurder koden på tid
-   - Vurder programmering på tid
-** Forskjellige platformer
-   - Kattis
-   - Project Euler
-   - Programming Ladder
-   - Google Code Jam
 ** Hvordan gå fra problem til kode?
 *** Pólya
 **** First, you have to understand the problem.
