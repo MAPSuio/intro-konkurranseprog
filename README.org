@@ -78,24 +78,36 @@
      være!
 
 ** Hva er tidskompleksitet?
-   #+BEGIN_SRC java
-   // Eksempel 1
 
+   - En måte å resonnere over hvor mye tid en algoritme vil bruke
+   - Størrelsen på input avgjør hvor lang tid algoritmen faktisk bruker
+
+   #+REVEAL_HTML: <p></p> <p></p>
+   #+REVEAL_HTML:<table>
+   #+REVEAL_HTML:<tr><td>
+   Eksempel på lineær tid:
+   #+BEGIN_SRC java
    for (int i = 0; i < n; i++) {
        doSomething();
    }
+
    for (int j = 0; j < n; j++) {
        doSomething();
    }
-
-   // Eksempel 2
-
+   #+END_SRC
+   #+REVEAL_HTML:</td>
+   #+REVEAL_HTML:<td>
+   Eksempel på kvadratisk tid:
+   #+BEGIN_SRC java
    for (int i = 0; i < n; i++) {
        for (int j = 0; j < n; j++) {
            doSomething();
        }
    }
    #+END_SRC
+   #+REVEAL_HTML:</td></tr>
+   #+REVEAL_HTML:</table>
+
 ** Hvor mye kan en datamaskin gjøre på ett sekund?
    TL;DR: 10^9
 ** Hvordan gå fra problem til kode?
