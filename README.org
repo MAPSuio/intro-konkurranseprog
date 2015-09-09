@@ -92,15 +92,15 @@ http://www.csc.kth.se/utbildning/kth/kurser/DD2458/popuph14/uppgifter/
 *** Stack Overflow
 http://stackoverflow.com/questions/tagged/algorithm?sort=faq&pagesize=15
 * Oppgaveløsning
-** Trivielle
+** Enkle
 - [[https://open.kattis.com/problems/aaah][Aaah!]]
 - [[https://open.kattis.com/problems/hello][Hello World!]]
 - [[https://open.kattis.com/problems/simon][Simon Says]]
-** Enkle
+** Medium
 - [[https://open.kattis.com/problems/mixedfractions][Mixed Fractions]]
 - [[https://open.kattis.com/problems/bishops][Bishops]]
 - [[https://open.kattis.com/problems/different][A Different Problem]]
-** Medium
+** Utfordrene
 - [[https://open.kattis.com/problems/trainpassengers][Train Passengers]]
 - [[https://open.kattis.com/problems/plantingtrees][Planting Trees]]
 - [[https://open.kattis.com/problems/billiard][Billiard]]
