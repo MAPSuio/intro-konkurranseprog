@@ -161,16 +161,12 @@
 *** Stack Overflow
     http://stackoverflow.com/questions/tagged/algorithm?sort=faq&pagesize=15
 * Oppgaveløsning
-** Enkle
-   - [[https://open.kattis.com/problems/aaah][Aaah!]]
-   - [[https://open.kattis.com/problems/hello][Hello World!]]
-   - [[https://open.kattis.com/problems/simon][Simon Says]]
-** Medium
-   - [[https://open.kattis.com/problems/mixedfractions][Mixed Fractions]]
-   - [[https://open.kattis.com/problems/bishops][Bishops]]
-   - [[https://open.kattis.com/problems/different][A Different Problem]]
-** Utfordrene
-   - [[https://open.kattis.com/problems/trainpassengers][Train Passengers]]
-   - [[https://open.kattis.com/problems/plantingtrees][Planting Trees]]
-   - [[https://open.kattis.com/problems/billiard][Billiard]]
-   - [[https://open.kattis.com/problems/recenice][Rečenice]]
+
+  #+BEGIN_CENTER
+  | *Enkle*      | *Medium*            | *Utfordrene*     |
+  | [[https://open.kattis.com/problems/aaah][Aaah!]]        | [[https://open.kattis.com/problems/mixedfractions][Mixed Fractions]]     | [[https://open.kattis.com/problems/trainpassengers][Train Passengers]] |
+  | [[https://open.kattis.com/problems/hello][Hello World!]] | [[https://open.kattis.com/problems/bishops][Bishops]]             | [[https://open.kattis.com/problems/plantingtrees][Planting Trees]]   |
+  | [[https://open.kattis.com/problems/simon][Simon Says]]   | [[https://open.kattis.com/problems/different][A Different Problem]] | [[https://open.kattis.com/problems/billiard][Billiard]]         |
+  |              |                     | [[https://open.kattis.com/problems/recenice][Rečenice]]         |
+  #+END_CENTER
+
