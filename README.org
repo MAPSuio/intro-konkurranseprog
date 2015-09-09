@@ -10,38 +10,43 @@
 #+REVEAL_SPEED: fast
 #+REVEAL_HLEVEL: 1
 
-* Foredrag
+* Konkurranseprogrammering
 ** Hva er konkurranseprogrammering?
-*** Forskjellige typer
-- Kjør koden på server
-- Kjør koden lokalt
-- Vurder koden på tid
-- Vurder programmering på tid
-*** Forskjellige platformer
-- [[https://open.kattis.com/][Kattis]]
-- [[https://projecteuler.net/][Project Euler]]
-- [[https://code.google.com/codejam][Google Code Jam]]
-- [[http://lispinsummerprojects.org/][Lisp In Summer Projects]]
+ | *Forskjellige typer*        | *Forskjellige plattformer* |
+ |-----------------------------+----------------------------|
+ | Kjør koden på server        | [[https://open.kattis.com/][Kattis]]                     |
+ | Kjør koden lokalt           | [[https://projecteuler.net/][Project Euler]]              |
+ | Vurder koden på tid         | [[https://code.google.com/codejam][Google Code Jam]]            |
+ | Vurder programmering på tid | [[http://lispinsummerprojects.org/][Lisp In Summer Projects]]    |
 ** Hvorfor drive med konkurranseprogrammering?
-   - *Oppgaveløsning er en fin måte å lære på.* I informatikk er det ofte
-     lett å lure seg selv til å tro at man forstår noe man egentlig ikke
-     forstår. Oppgaveløsning er en god måte å fjerne en slik
-     misoppfatning. Sannheten kommer som oftest alltid frem når man løser
-     oppgaver. Da ser man med klarhet hva man er god til, og hva man
-     trenger å jobbe mer med.
-   - *Man lærer å løse problemer under press.* Under en konkurranse er
-     tiden alltid fienden. Selv enkle problemer kan bli vanskelige hvis
-     tidspresset er stort nok.
-   - *Blir ekspert i noen av de viktigste algoritmene.* Oppgaver som skal
-     løses er ofte varianter av godt kjente algoritmer. For å løse dem er
-     det nødvendig å gjenkjenne at en kjent algoritme kan brukes, og så
-     tilpasse den til den konkrete oppgaven.
-   - *Får evnen til raskt å estimere ressursbruken til forskjellige
-     strategier.* Noen oppgaver kan løses med en naiv brute
+   - Oppgaveløsning er en fin måte å lære på
+     #+BEGIN_NOTES
+     I informatikk er det ofte lett å lure seg selv til å tro at man forstår
+     noe man egentlig ikke forstår. Oppgaveløsning er en god måte å fjerne en
+     slik misoppfatning. Sannheten kommer som oftest alltid frem når man løser
+     oppgaver. Da ser man med klarhet hva man er god til, og hva man trenger å
+     jobbe mer med.
+     #+END_NOTES
+   - Man lærer å løse problemer under press.
+     #+BEGIN_NOTES
+     Under en konkurranse er tiden
+     alltid fienden. Selv enkle problemer kan bli vanskelige hvis tidspresset
+     er stort nok.
+     #+END_NOTES
+   - Blir ekspert i noen av de viktigste algoritmene
+     #+BEGIN_NOTES
+     Oppgaver som skal løses er ofte varianter av godt kjente algoritmer. For å
+     løse dem er det nødvendig å gjenkjenne at en kjent algoritme kan brukes,
+     og så tilpasse den til den konkrete oppgaven.
+     #+END_NOTES
+   - Får evnen til raskt å estimere ressursbruken til forskjellige strategier
+     #+BEGIN_NOTES
+     Noen oppgaver kan løses med en naiv brute
      force-strategi. Andre oppgaver trenger noe smartere. Gode
      konkurranseprogrammere estimerer godt både hvor lang tid det vil ta
      å kode løsningen til et problem og hvor lenge det vil kjøre.
-   - *Det er morsomt å konkurrere.*
+     #+END_NOTES
+   - Det er morsomt å konkurrere!
 ** Hva er tidskompleksitet?
    #+BEGIN_SRC java
    // Eksempel 1
@@ -62,7 +67,7 @@
    }
    #+END_SRC
 ** Hvor mye kan en datamaskin gjøre på ett sekund?
-   10^9
+   TL;DR: 10^9
 ** Hvordan gå fra problem til kode?
 *** Pólya
 **** First, you have to understand the problem.
