@@ -29,25 +29,28 @@
      oppgaver. Da ser man med klarhet hva man er god til, og hva man trenger å
      jobbe mer med.
      #+END_NOTES
-   - Man lærer å løse problemer under press.
+
+   - Man lærer å løse problemer, også under press
      #+BEGIN_NOTES
-     Under en konkurranse er tiden
-     alltid fienden. Selv enkle problemer kan bli vanskelige hvis tidspresset
-     er stort nok.
+     Under en konkurranse er tiden alltid fienden. Selv enkle problemer kan bli
+     vanskelige hvis tidspresset er stort nok.
      #+END_NOTES
+
    - Blir ekspert i noen av de viktigste algoritmene
      #+BEGIN_NOTES
      Oppgaver som skal løses er ofte varianter av godt kjente algoritmer. For å
      løse dem er det nødvendig å gjenkjenne at en kjent algoritme kan brukes,
      og så tilpasse den til den konkrete oppgaven.
      #+END_NOTES
+
    - Får evnen til raskt å estimere ressursbruken til forskjellige strategier
      #+BEGIN_NOTES
-     Noen oppgaver kan løses med en naiv brute
-     force-strategi. Andre oppgaver trenger noe smartere. Gode
-     konkurranseprogrammere estimerer godt både hvor lang tid det vil ta
-     å kode løsningen til et problem og hvor lenge det vil kjøre.
+     Noen oppgaver kan løses med en naiv brute force-strategi. Andre oppgaver
+     trenger noe smartere. Gode konkurranseprogrammere estimerer godt både hvor
+     lang tid det vil ta å kode løsningen til et problem og hvor lenge det vil
+     kjøre.
      #+END_NOTES
+
    - Det er morsomt å konkurrere!
 ** Hva er tidskompleksitet?
    #+BEGIN_SRC java
