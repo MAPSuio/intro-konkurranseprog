@@ -2,13 +2,18 @@ h1, h2, h3, h4, h5, h6, p, a, li, tr, td {
     font-family: "Helvetica", sans-serif !important;
 }
 
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    padding-bottom: 60px;
+}
+
 colgroup {
     border: none !important;
 }
 
 .reveal table th, .reveal table td {
     text-align: left;
-    padding-right: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .reveal pre {
