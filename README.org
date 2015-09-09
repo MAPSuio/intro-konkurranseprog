@@ -44,6 +44,8 @@ for (int i = 0; i < n; i++) {
     }
 }
 #+END_SRC
+** Hvor mye kan en datamaskin gjøre på ett sekund?
+10^9
 ** Forskjellige typer
 - Kjør koden på server
 - Kjør koden lokalt
