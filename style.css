@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, tr, td {
 }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 colgroup {
