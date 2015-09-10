@@ -162,6 +162,30 @@
      - Sjekk bounds på input
      - Legge inn run time error med vilje (last resort)
 
+** Eksempel!
+
+   Dette kan brukes som mal for [[https://open.kattis.com/problems/mixedfractions][Mixed Fractions]].
+
+    #+BEGIN_SRC java :tangle MixedFractions.java
+    import java.util.Scanner;
+
+    class MixedFractions {
+        public static void main(String[] args) {
+
+            Scanner s = new Scanner(System.in);
+            while (s.hasNextInt()) {
+                int n = s.nextInt();
+                int m = s.nextInt();
+
+                if (m == 0)
+                    continue;
+
+                System.out.println("This should be replaced by something smart.");
+            }
+        }
+    }
+   #+END_SRC
+
 ** Hvordan finne ressurser for å løse vanskelige problemer?
 
    - Les om relaterte problemer!
