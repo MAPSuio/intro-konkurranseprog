@@ -149,17 +149,19 @@
    - Fjern alle debuginfo fra koden og submit
 
 ** Hvordan løse problemer på Kattis?
-*** Registrere bruker
-    Husk å legge til Norway og University of Oslo
-*** Finne interessante problemer
-    http://www.csc.kth.se/utbildning/kth/kurser/DD2458/popuph14/uppgifter/
-*** Triks for feilsøkning
-    - Timeout
-    - Run time error
-    - Compilation error
-    - Les oppgaven nøye
-    - Sjekk bounds på input
-    - Legge inn run time error med vilje (last resort)
+
+   - Registrere bruker
+     - Husk å legge til Norway og University of Oslo!
+   - Finne interessante problemer
+     - [[http://www.csc.kth.se/utbildning/kth/kurser/DD2458/popuph14/uppgifter/][Anbefalinger fra KTH's algoritmekurs]]
+   - Triks for feilsøkning
+     - Timeout
+     - Run time error
+     - Compilation error
+     - Les oppgaven nøye
+     - Sjekk bounds på input
+     - Legge inn run time error med vilje (last resort)
+
 ** Hvordan finne ressurser for å løse vanskelige problemer?
 *** Wikipedia
 *** Stack Overflow
