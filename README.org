@@ -140,11 +140,14 @@
    TL;DR: 10^9
    #+END_CENTER
 
-*** Skriv kode og test ofte
-    Kanskje med de enkleste testcasene først, men så med de vanskeligste
-    for å se om koden er raskt nok.
-*** Når du tror du har noe som kan fungere, tenk på hva slags edge cases som finnes
-*** Fjern alle debuginfo fra koden og submit
+** Fra problem til program
+
+   - Skriv kode og test ofte
+   - Få noe som fungerer først, optimaliser etterpå
+   - Bekreft at idéen er god ved å kjøre de enkle testcasene
+   - Tenk over hva slags edge cases som finnes og test de
+   - Fjern alle debuginfo fra koden og submit
+
 ** Hvordan løse problemer på Kattis?
 *** Registrere bruker
     Husk å legge til Norway og University of Oslo
