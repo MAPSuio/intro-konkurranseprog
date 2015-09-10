@@ -9,15 +9,16 @@
 #+REVEAL_THEME: serif
 #+REVEAL_SPEED: fast
 #+REVEAL_HLEVEL: 1
+#+REVEAL_MARGIN: 0
 
 ** Hva er konkurranseprogrammering?
 
-   | *Forskjellige typer*        | *Forskjellige plattformer* |
-   |-----------------------------+----------------------------|
-   | Kjør koden på server        | [[https://open.kattis.com/][Kattis]]                     |
-   | Kjør koden lokalt           | [[https://projecteuler.net/][Project Euler]]              |
-   | Vurder koden på tid         | [[https://code.google.com/codejam][Google Code Jam]]            |
-   | Vurder programmering på tid | [[http://lispinsummerprojects.org/][Lisp In Summer Projects]]    |
+   | *Forskjellige typer* | *Tidsfrist* | *Forskjellige plattformer* |
+   |----------------------+-------------+----------------------------|
+   | Send inn kode        | Kjøretid    | [[https://open.kattis.com/][Kattis]]                     |
+   | Send inn svar        | Ingen       | [[https://projecteuler.net/][Project Euler]]              |
+   | Send inn svar        | Kort        | [[https://code.google.com/codejam][Google Code Jam]]            |
+   | Send inn kode        | Lang        | [[http://lispinsummerprojects.org/][Lisp In Summer Projects]]    |
 
 ** Hvorfor drive med konkurranseprogrammering?
 
