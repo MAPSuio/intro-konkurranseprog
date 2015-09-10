@@ -163,9 +163,13 @@
      - Legge inn run time error med vilje (last resort)
 
 ** Hvordan finne ressurser for å løse vanskelige problemer?
-*** Wikipedia
-*** Stack Overflow
-    http://stackoverflow.com/questions/tagged/algorithm?sort=faq&pagesize=15
+
+   - Les om relaterte problemer!
+     - Wikipedia har som regel gode og konsise forklaringer
+   - Ikke vær redd for å lese litt matematikk.
+   - Stack Overflow er supert til å raskt løse kodeproblemer
+     - [[http://stackoverflow.com/questions/tagged/algorithm?sort=faq&pagesize=15][men er også en god resurs for algoritmer]]
+
 * Oppgaveløsning
 
   #+BEGIN_CENTER
@@ -175,4 +179,3 @@
   | [[https://open.kattis.com/problems/simon][Simon Says]]   | [[https://open.kattis.com/problems/different][A Different Problem]] | [[https://open.kattis.com/problems/billiard][Billiard]]         |
   |              |                     | [[https://open.kattis.com/problems/recenice][Rečenice]]         |
   #+END_CENTER
-
